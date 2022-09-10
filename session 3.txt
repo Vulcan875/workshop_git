@@ -1,0 +1,98 @@
+Definition and Usage
+The <a> tag defines a hyperlink, which is used to link from one page to another.
+
+The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+
+By default, links will appear as follows in all browsers:
+
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+
+exemple :
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The a element</h1>
+
+<a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+
+</body>
+</html>
+
+
+
+
+
+
+<form>:
+Definition and Usage
+The <form> tag is used to create an HTML form for user input.
+
+The <form> element can contain one or more of the following form elements:
+
+<input>
+<textarea>
+<button>
+<select>
+<option>
+<optgroup>
+<fieldset>
+<label>
+<output>
+
+
+img and video tags:
+
+
+Definition and Usage
+The <video> tag is used to embed video content in a document, such as a movie clip or other video streams.
+
+The <video> tag contains one or more <source> tags with different video sources. The browser will choose the first source it supports.
+
+The text between the <video> and </video> tags will only be displayed in browsers that do not support the <video> element.
+
+There are three supported video formats in HTML: MP4, WebM, and OGG.
+
+
+* selector
+
+The CSS rule below will affect every HTML element on the page: 
+
+exemple
+
+* {
+  text-align: center;
+  color: blue;
+}
+
+element1 > element2:
+
+
+Definition and Usage
+The element>element selector is used to select elements with a specific parent.
+
+Note: Elements that are not directly a child of the specified parent, are not selected.
+
+
+element1 + element2:
+
+exemple Definition and Usage
+The element+element selector is used to select an element that is directly after another specific element.
+
+
+element1~element2:
+
+Definition and Usage
+The element1~element2 selector matches occurrences of element2 that are preceded by element1.
+
+Both elements must have the same parent, but element2 does not have to be immediately preceded by element1.
+
+
+
+
+
+
+
